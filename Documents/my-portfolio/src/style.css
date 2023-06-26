@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+html {
+    --section-background-color: linear-gradient(
+      to bottom left,
+      rgba(17, 16, 16, 0.582),
+      rgba(12, 8, 24, 0.904)
+    );
+  
+    --image-gradient: linear-gradient(
+      to bottom left,
+      rgba(255, 255, 255, 0.678),
+      rgba(255, 255, 255, 0.863)
+    );
+  
+    --imp-text-color: #071722;
+  }
+
+.wave {
+    animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.1s; /* Change to speed up or slow down */
+    animation-iteration-count: infinite; /* Never stop waving :) */
+    transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    } /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    } /* Reset for the last half to pause */
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  .home-section {
+    position: relative;
+    z-index: -1;
+    /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover; Added this line */
+
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+  }
+
+  .home-header {
+    padding-top: 80px !important;
+  }
+
+  .home-content {
+    padding: 9rem 0 2rem !important;
+    color: rgb(160, 188, 237);
+    text-align: left;
+    
+  }
+
+  .heading {
+    font-size: 2.4em !important;
+    padding-left: 50px !important;
+    font-family: 'Pacifico',cursive;
+    font-weight: normal;
+    color:rgba(102, 118, 169, 0.904);
+  }
+  
+  .heading-name {
+    font-size: 3.5em !important;
+    padding-left: 45px !important;
+    font-family: 'Pacifico',cursive;
+    color:rgba(102, 118, 169, 0.904);
+    
+  }
+
+  .main-name {
+    color:rgba(102, 118, 169, 0.904);
+    font-family: 'Pacifico',cursive;
+
+  }
+
+  .logo {
+    height: 1.4em !important;
+    width: 2.5em !important;
+  }
