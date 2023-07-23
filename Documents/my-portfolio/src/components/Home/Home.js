@@ -1,48 +1,39 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
-// import Particle from "../Particle";
-// import Home2 from "./Home2";
-// import Type from "./Type";
+import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import homeLogo from "../../Assets/home.jpg";
+import Type from "./Typewriter";
+// import cisco from "../../Assets/cisco.jpg";
+// import aspida from "../../Assets/aspida.jpeg";
+// import ncsu from "../../Assets/ncsu.png";
+// import pes from "../../Assets/pes.png";
 
 function Home() {
-    return (
+  return (
+    <section className="home-section">
+        <div className="shooting-star"></div>
+      <Container className="home-container">
+        <div className="home-header">
+          <div className="hey-there">
+            <h1 style={{ paddingBottom: 15 }} className="heading">
+              Hey There!{" "}
+              <span className="wave" role="img" aria-labelledby="wave">
+                👋🏻
+              </span>{" "}
+              I'm Tanvi Sinha
+            </h1>
+          </div>
+        </div>
 
-<section>
-      <Container fluid className="home-section" id="home">
-        {/* <Particle /> */}
-        <Container className="home-content">
-          <Row>
-            <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hey There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
-              </h1>
-
-              <h1 className="heading-name">
-                I'm
-                <strong className="main-name"> Tanvi Sinha </strong>
-              </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
-                {/* <Type /> */}
-              </div>
-            </Col>
-
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
-            </Col>
-          </Row>
-        </Container>
+        <div className="polaroid-wrapper">
+          <div className="polaroid">
+            <img src={homeLogo} alt="home pic" className="home-logo" />
+          </div>
+          <div className="polaroid-caption">
+            <Type />
+          </div>
+        </div>
       </Container>
-      {/* <Home2 /> */}
     </section>
   );
 }
