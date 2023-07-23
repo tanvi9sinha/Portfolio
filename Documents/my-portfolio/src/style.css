@@ -472,4 +472,111 @@ html {
     background-size: cover;
     min-height: 100vh;
   }
-  
+
+
+  /* Work */
+/* Add this CSS in your style.css file or within a style block in your React component */
+.work-experience-section {
+  position: relative;
+  padding-top: 110px;
+  padding-bottom: 30px;
+  color: white;
+  font-family: 'Electrolize', sans-serif;
+  background-image: var(--image-gradient), url(./Assets/home-bg.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.work-experience-section section {
+  display: flex;
+  flex-direction: column; /* Change the flex direction to column */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  margin: 50px 0;
+}
+
+.work-experience-section img {
+  max-width: 300px;
+  border-radius: 50%;
+  /* Adjust this height value to make the image circular */
+  height: 300px;
+}
+
+.work-experience-section h2 {
+  margin-top: 20px; /* Add some top margin to separate image and company name */
+  font-size: 24px;
+  text-align: center; /* Center the company name */
+}
+
+.work-experience-section h2 span {
+  font-weight: bold; /* Make the company names bold */
+}
+
+.work-experience-section h2 .place-name {
+  display: block; /* Move the place name to a different line */
+  font-size: 18px;
+}
+.work-experience-section h2 .years-worked {
+  display: block; /* Move the years worked to a different line */
+  font-size: 18px; /* Adjust the font size for years worked */
+}
+.work-experience-section ul {
+  max-width: 600px;
+  margin-top: 20px; /* Add some top margin for better spacing */
+  text-align: left;
+}
+
+.work-experience-section li {
+  margin-bottom: 10px;
+}
+
+
+/* Education */
+/* Add this CSS in your style.css file or within a style block in your React component */
+.education-section {
+  position: relative;
+  padding-top: 110px;
+  padding-bottom: 30px;
+  color: white;
+  font-family: 'Electrolize', sans-serif;
+  background-image: var(--image-gradient), url(./Assets/home-bg.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.education-section section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0;
+}
+
+.education-section img {
+  max-width: 300px;
+  border-radius: 200px; /* Make the images slightly rounded to create an oval appearance */
+}
+
+.education-section h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.education-section h2 .college-name {
+  display: block;
+}
+
+.education-section h2 .years {
+  display: block;
+  font-size: 18px;
+}
+
+.education-section p {
+  text-align: center;
+}
+
+
