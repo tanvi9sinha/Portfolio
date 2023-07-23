@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.87c6cd8b.css",
+    "main.js": "/portfolio/static/js/main.68d31761.js",
+    "static/js/787.128fc6e9.chunk.js": "/portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/home.jpg": "/portfolio/static/media/home.f4d295dcd26056d55b30.jpg",
+    "static/media/cisco.jpg": "/portfolio/static/media/cisco.6a366d0c9f17db466bd0.jpg",
+    "static/media/home-bg.jpeg": "/portfolio/static/media/home-bg.c2fbc1ade61beb7f1093.jpeg",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.b28e90cc1733ca99e737.pdf",
+    "static/media/ncsu.png": "/portfolio/static/media/ncsu.a2187c13ee7399446a3a.png",
+    "static/media/Electrolize-Regular.ttf": "/portfolio/static/media/Electrolize-Regular.b27462fc6532a900b8d3.ttf",
+    "static/media/aspida.jpeg": "/portfolio/static/media/aspida.629b49ab3606b87a1aab.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.87c6cd8b.css.map": "/portfolio/static/css/main.87c6cd8b.css.map",
+    "main.68d31761.js.map": "/portfolio/static/js/main.68d31761.js.map",
+    "787.128fc6e9.chunk.js.map": "/portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87c6cd8b.css",
+    "static/js/main.68d31761.js"
+  ]
+}
